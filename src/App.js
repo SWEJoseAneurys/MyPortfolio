@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -9,20 +8,35 @@ function App() {
   
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>SWE: Jose A. Castro</h1>
+      <div className='screenshots'>
+        <div>
+          <h4>Spacebattle<br/>Game</h4>
+          <a href='https://github.com/SWEJoseAneurys/SpaceBattle.git'><img src='https://iili.io/HXfBc67.md.png' /></a>
+        </div>
+        <div>
+          <h4>Product Store<br/>App</h4>
+          <a href='https://github.com/SWEJoseAneurys/ProductStore.git'><img src='https://iili.io/HXfBFTv.md.png' /></a>
+        </div>
+        <div>
+          <h4>To-Do List<br/>App</h4>
+          <a href='https://github.com/SWEJoseAneurys/ToDoListApp.git'><img src='https://iili.io/HXK9lyP.md.png'/></a>
+        </div>
+      </div>
+      <div className='buttons'>
+        <div>
+          <p>Visit my</p>
+          <button onClick={ () => window.open('https://github.com/SWEJoseAneurys', '_blank')}>Github</button>
+        </div>
+        <div>
+          <p>Connect via</p>
+          <button onClick={ () => window.open('https://www.linkedin.com/in/joséacastro/', '_blank')}>LinkedIn</button>
+        </div>
+        <div>
+          <p>View my</p>
+          <button onClick={ () => window.open('https://drive.google.com/file/d/1J2aL4RA893qwqeRmj03uwNePKY5Tv9Kd/view?usp=share_link', '_blank')}>Resume</button>
+        </div>
+      </div>
     </div>
   );
 }

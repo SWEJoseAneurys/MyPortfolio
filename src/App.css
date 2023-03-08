@@ -1,5 +1,7 @@
 .App {
+  color: white;
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -35,4 +37,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  height: 230px;
+  width: 300px;
+}
+
+.screenshots {
+  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  padding-right: 100px;
+}
+
+.buttons {
+  /* justify-content: space-evenly; */
+  display: grid;
+  /* grid-template-columns: 50px 50px 50px; */
+  /* padding-right: 100px; */
+}
+
+h4 {
+  text-align: center;
+  padding-left: 80px;
 }
